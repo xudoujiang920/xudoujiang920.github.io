@@ -48,3 +48,6 @@ a[href*="utm_campaign=blog-footer"] {
 #s-footer-section-container .s-footer-section {
   display: block !important;
 }
+
+/* 6. 锚点定位余量：导航"通讯 News"跳转到首页创造日志区块时，避免标题顶到屏幕最上沿 */
+#news { scroll-margin-top: 100px; }
